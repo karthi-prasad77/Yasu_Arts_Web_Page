@@ -1,4 +1,3 @@
-import './App.css';
 import About from './components/About';
 import Arts from './components/Art';
 import Home from './components/Home';
