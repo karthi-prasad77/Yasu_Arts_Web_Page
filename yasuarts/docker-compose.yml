@@ -1,0 +1,11 @@
+version: "2.2"
+
+services:
+  yasuarts:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/yasuarts/src
+    ports:
+      - "3000-3000"

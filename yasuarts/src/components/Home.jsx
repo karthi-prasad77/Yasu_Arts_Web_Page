@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <div name='home' className='w-full h-screen'>
       {/* Container */}
+      
       <video autoPlay loop muted style={{position: "absolute", width: "100%", left: "50%", top: "50%", height: "100%", objectFit: "cover", transform: "translate(-50%, -50%)", zIndex: "-1"}}>
         <source src={Video} type="video/mp4"/>
       </video>

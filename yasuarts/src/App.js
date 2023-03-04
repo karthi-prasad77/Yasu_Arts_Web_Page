@@ -10,13 +10,15 @@ import Social from './components/Social';
 function App() {
   return (
    <div>
-    <Navbar />
-    <Home />
-    <Social />
-    <About />
-    <Skills />
-    <Arts />
-    <Contact />
+  
+      <Navbar />
+      <Home />
+      <Social />
+      <About />
+      <Skills />
+      <Arts />
+      <Contact />
+
    </div>
   );
 }
